@@ -1,6 +1,6 @@
 # 💱 Conversor de Moedas
 
-Projeto simples de um conversor de moedas, desenvolvido com HTML, CSS e JavaScript. O usuário pode inserir um valor em Reais (BRL) e converter para Dólar (USD), Euro (EUR), Libra (GBP) ou Bitcoin (BTC).
+Projeto simples de um conversor de moedas, desenvolvido com HTML, CSS, JavaScript e com uma Api integrada. O usuário pode inserir um valor em Reais (BRL) e converter para Dólar (USD), Euro (EUR), Libra (GBP) ou Bitcoin (BTC).
 
 ## 🖥️ Demonstração
 
@@ -12,6 +12,7 @@ Interface visual amigável com troca de ícones e nomes conforme a moeda selecio
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
+- API
 
 ## ⚙️ Funcionalidades
 
@@ -21,23 +22,3 @@ Interface visual amigável com troca de ícones e nomes conforme a moeda selecio
 
 ## 📁 Estrutura de Arquivos
 
-```
-📦 conversor-moedas
-├── index.html
-├── styles.css
-├── script.js
-└── assets/
-    ├── mao.gif
-    ├── real.png
-    ├── dolar.png
-    ├── euro.png
-    ├── libra.png
-    ├── bitcoin.png
-    └── seta.png
-```
-
-## 📌 Melhorias Futuras
-
-- 🔁 **Atualização em tempo real** das cotações via API (ex: ExchangeRate API, CoinGecko).
-- ↔️ **Conversão da moeda de origem**, permitindo selecionar outras além do Real.
-- 💡 Validação de campos e mensagens de erro.
